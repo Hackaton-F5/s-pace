@@ -1,10 +1,13 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { Link } from "react-router-dom";
 
 export default function Welcome() {
   return (
-    <div>
-      <button>Find your space</button>
+    <div className="btn">
+      <Link className="btn btn-success btn-lg" role="button" to="Landing">
+        Find your space
+      </Link>
+
       <button>Publish your space</button>
     </div>
   );
