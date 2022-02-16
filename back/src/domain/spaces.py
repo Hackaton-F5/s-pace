@@ -53,7 +53,7 @@ class SpacesRepository:
         conn.commit()
 
     def get_spaces(self):
-        sql = """select * from spaces"""
+        sql = """SELECT * from spaces"""
         conn = self.create_conn()
         cursor = conn.cursor()
         cursor.execute(sql)
@@ -62,17 +62,22 @@ class SpacesRepository:
 
         spaces = []
         for item in data:
-            space = Space(
-                id=item["id"],
-                name=item["name"],
-                image=item["image"],
-                price=item["price"],
-                contact=item["contact"],
-                city=item["city"],
-                description=item["description"],
-            )
+            space = Space(**item)
             spaces.append(space)
         return spaces
+
+
+    def get_by_id(self, id):
+        sql = """SELECT * FROM spaces WHERE id=:id"""
+        conn = self.create_conn()
+        cursor = conn.cursor()
+        cursor.execute(sql, {"id": id})
+
+        data = cursor.fetchone()
+        space = Space(**data)
+
+        return space
+
 
     def save(self, space):
         sql = """insert into spaces (id, name, image, price, contact, city, description) values (:id, :name, :image, :price, :contact, :city, :description)"""
