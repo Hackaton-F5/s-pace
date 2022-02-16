@@ -6,16 +6,18 @@
 
 1. Instalar los paquetes necesarios
 
-    `python -m pip install --user -r requirements.txt`
+   `python -m pip install --user -r requirements.txt`
 
 2. Ejecutar los tests
 
-    `python -m pytest`
+   `python -m pytest`
 
-3. Generar los datos iniciales
+3. Crear carpeta data en la carpeta back
 
-    `python scripts/initial_data.py`
+4. Generar los datos iniciales
 
-4. Ejecutar la aplicación
+   `python scripts/initial_data.py`
 
-    `python app.py`
+5. Ejecutar la aplicación
+
+   `python app.py`
