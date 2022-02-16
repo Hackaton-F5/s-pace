@@ -1,4 +1,4 @@
-# Aplicación semilla (backend)
+# Aplicación S-pace (backend)
 
 ## Puesta en marcha
 
@@ -12,12 +12,10 @@
 
    `python -m pytest`
 
-3. Crear carpeta data en la carpeta back
-
-4. Generar los datos iniciales
+3. Generar los datos iniciales
 
    `python scripts/initial_data.py`
 
-5. Ejecutar la aplicación
+4. Ejecutar la aplicación
 
    `python app.py`
