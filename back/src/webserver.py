@@ -17,4 +17,9 @@ def create_app(repositories):
         info = repositories["info"].get_info()
         return object_to_json(info)
 
+    @app.route("/api/space", methods=["GET"])
+    def spaces_get():
+        all_spaces = repositories["space"].get_spaces()
+        return object_to_json(all_spaces)
+
     return app
