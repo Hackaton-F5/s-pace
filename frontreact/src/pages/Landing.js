@@ -1,4 +1,3 @@
-import { Routes, Route, BrowserRouter } from "react-router-dom";
 import CardGrid from "../components/CardGrid";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
