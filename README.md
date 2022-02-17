@@ -13,8 +13,6 @@ ___
 Toda la oferta de oficinas en un único espacio 
 ```
 ---
-```
-
 **Pre-requisitos**
 
 1. instalar node
@@ -27,53 +25,57 @@ Toda la oferta de oficinas en un único espacio
 
 ir github y clonar el proyecto:
 
-``` 
 ---
 [git clone](https://github.com/Hackaton-F5/s-pace/) <br>    https://github.com/Hackaton-F5/s-pace/
 - - -
 
-```
-**Encontrara dos directorios:**
-* back y frontreact encontra en cada directorio se encuentra README descripción de la instalación de react y python flask.
 
-```
+**Encuentra dos directorios:**
+
+* back y frontreact encontra en cada directorio
+  se encuentra README descripción de la instalación de react y python flask.
+
+
 #
-Pruebas
+**Pruebas**
 # 
-```
-Las pruebas son realizadas con la herrameinta de python, pytes.
-Con esta herramienta se verifica la creacion de la base de datos, y que el sistema se esté ejecutando con los paramatros establecidos para su correcto funcionamiento en el desplugue que se este realizando.
-```
+
+Las pruebas son realizadas con la
+herrameinta de python, pytest.
+Con esta herramienta se verifica la creacion de la base de datos,
+y que el sistema se esté ejecutando con los paramatros establecidos
+para su correcto funcionamiento en el desplugue que se este realizando.
 ___
-#####Tecnologías del proyecto:
-___
+
+#### **Tecnologías del proyecto:**
+
 * Python
 * Python flask
 * ReactJs
-
 ___
+
+**Desarrolladores:** 
 ```
-#######Desarrolladores: 
+* Karen Rosales 
+* email: karenvane129@gmail.com
 * Mayu Ruiz
 * email: aruizrull@protonmail.com
 * Noelia Valverde
 * email: noelia.valverde@gmail.com
 * Ignacio moreno frison 
 * email: imoreno.im69@gmail.com
-* Karen Rosales 
-* email: karenvane129@gmail.com
 * Valentina Vergara 
 * email: valentina.98.3440@gmail.com
 * Dario Higuera 
 * email: dariohimo@gmail.com
 ```
- ___
+___
  #### Patrocinadores hackaton Febrero 2022
 
  [educamas](https://educamas.com.co/)<br>
- - - -
+- - -
  [factoriaf5](https://simplon.co/)<br>
- ___
+___
  [adevinta](https://www.adevinta.es/)<br>
 ___
  ## Downloads
