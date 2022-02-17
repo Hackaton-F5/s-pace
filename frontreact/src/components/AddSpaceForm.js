@@ -1,6 +1,7 @@
 import api from "../globalapi";
 import { useState } from "react";
 import { v4 as uuid } from "uuid";
+import styles from "./AddSpaceForm.module.css";
 
 export default function AddSpaceForm() {
   const [name, setName] = useState("");
@@ -36,9 +37,11 @@ export default function AddSpaceForm() {
   };
 
   return (
-    <form onSubmit={submitHandler}>
-      <div>
-        <label htmlFor="name">Name</label>
+    <div className={styles.container}>
+    <form onSubmit={submitHandler} className={styles.form}>
+        <legend>Agrega un nuevo lugar</legend>
+      <div className="mb-4">
+        <label htmlFor="name">Name &nbsp;</label>
         <input
           type="text"
           placeholder="Add s-pace's name"
@@ -47,8 +50,8 @@ export default function AddSpaceForm() {
         />
       </div>
 
-      <div>
-        <label htmlFor="image">Image</label>
+      <div className="mb-4">
+        <label htmlFor="image">Image &nbsp;</label>
         <input
           type="url"
           placeholder="Add a photo url"
@@ -57,8 +60,8 @@ export default function AddSpaceForm() {
         />
       </div>
 
-      <div>
-        <label htmlFor="price">Price</label>
+      <div className="mb-4">
+        <label htmlFor="price">Price &nbsp;</label>
         <input
           type="text"
           placeholder="Taken by"
@@ -67,8 +70,8 @@ export default function AddSpaceForm() {
         />
       </div>
 
-      <div>
-        <label htmlFor="price">Contact</label>
+      <div className="mb-4">
+        <label htmlFor="price">Contact &nbsp;</label>
         <input
           type="text"
           placeholder="Add your contact mail here"
@@ -77,8 +80,8 @@ export default function AddSpaceForm() {
         />
       </div>
 
-      <div>
-        <label htmlFor="price">City</label>
+      <div className="mb-4">
+        <label htmlFor="price">City &nbsp;</label>
         <input
           type="text"
           placeholder="What city this is"
@@ -87,8 +90,8 @@ export default function AddSpaceForm() {
         />
       </div>
 
-      <div>
-        <label htmlFor="description">Description</label>
+      <div className="mb-4">
+        <label htmlFor="description">Description &nbsp;</label>
         <input
           type="text"
           placeholder="Description"
@@ -97,10 +100,11 @@ export default function AddSpaceForm() {
         />
       </div>
 
-      <div>
-        {!isLoading && <button>Publish your space!</button>}
+      <div className="mb-4">
+        {!isLoading && <button className="btn btn-primary">Publish your space!</button>}
         {isLoading && <button disabled>Adding...</button>}
       </div>
     </form>
+    </div>
   );
 }

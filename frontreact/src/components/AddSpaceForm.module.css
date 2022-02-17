@@ -6,6 +6,17 @@
   margin-bottom: 0.5rem;
 }
 
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 .control label {
   display: block;
   font-weight: bold;
