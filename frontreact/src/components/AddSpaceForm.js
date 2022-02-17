@@ -10,12 +10,12 @@ export default function AddSpaceForm() {
   const [city, setCity] = useState("");
   const [description, setDescription] = useState("");
   const [isLoading, setIsLoading] = useState(false);
-  const unique_id = uuid();
+  const id = uuid();
 
   const submitHandler = (event) => {
     event.preventDefault();
     const newData = {
-      unique_id,
+      id,
       name,
       image,
       price,
@@ -23,7 +23,7 @@ export default function AddSpaceForm() {
       city,
       description,
     };
-
+    console.log(newData);
     setIsLoading(true);
 
     fetch(api, {
