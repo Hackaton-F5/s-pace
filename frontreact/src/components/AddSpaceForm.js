@@ -38,8 +38,9 @@ export default function AddSpaceForm() {
 
   return (
     <div className={styles.container}>
+      <fieldset>
     <form onSubmit={submitHandler} className={styles.form}>
-        <legend>Agrega un nuevo lugar</legend>
+        <legend className={styles.title}><u>Agrega un nuevo lugar</u></legend>
       <div className="mb-4">
         <label htmlFor="name">Name &nbsp;</label>
         <input
@@ -90,7 +91,7 @@ export default function AddSpaceForm() {
         />
       </div>
 
-      <div className="mb-4">
+      <div className="mb-5">
         <label htmlFor="description">Description &nbsp;</label>
         <input
           type="text"
@@ -105,6 +106,7 @@ export default function AddSpaceForm() {
         {isLoading && <button disabled>Adding...</button>}
       </div>
     </form>
+    </fieldset>
     </div>
   );
 }
