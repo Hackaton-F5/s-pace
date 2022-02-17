@@ -12,6 +12,8 @@ import Card from "@mui/material/Card";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import api from "../globalapi";
+import { v4 as uuid } from "uuid";
+import { Link } from "react-router-dom";
 
 //const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
@@ -62,15 +64,15 @@ export default function CardGridCopy() {
                 />
                 <CardContent sx={{ flexGrow: 1 }}>
                   <Typography gutterBottom variant="h5" component="h2">
-                    heading={place.name}
+                    {place.name}
                   </Typography>
                   <Typography>
-                    content={place.description}
-                    price={place.price}
+                    {place.description}
+                    {place.price}
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button size="small">View</Button>
+                <Button size="small" component={Link} to="/display">Vie</Button>
                   <Button size="small">Edit</Button>
                 </CardActions>
               </Card>
