@@ -1,6 +1,5 @@
 import api from "../globalapi";
 import { useState } from "react";
-import styles from "./A";
 
 export default function AddSpaceForm() {
   const [name, setName] = useState("");
