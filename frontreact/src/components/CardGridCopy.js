@@ -25,6 +25,7 @@ export default function CardGridCopy() {
     setIsLoading(false);
     axios.get(api).then((res) => {
       setCards(res.data);
+
     });
   }, [setIsLoading]);
 
@@ -62,11 +63,11 @@ export default function CardGridCopy() {
                 />
                 <CardContent sx={{ flexGrow: 1 }}>
                   <Typography gutterBottom variant="h5" component="h2">
-                    heading={place.name}
+                    {place.name}
                   </Typography>
                   <Typography>
-                    content={place.description}
-                    price={place.price}
+                    {place.description}
+                    {place.price}
                   </Typography>
                 </CardContent>
                 <CardActions>
