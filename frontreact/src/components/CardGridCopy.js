@@ -12,6 +12,7 @@ import Card from "@mui/material/Card";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import api from "../globalapi";
+import { v4 as uuid } from "uuid";
 
 //const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
@@ -25,7 +26,6 @@ export default function CardGridCopy() {
     setIsLoading(false);
     axios.get(api).then((res) => {
       setCards(res.data);
-
     });
   }, [setIsLoading]);
 

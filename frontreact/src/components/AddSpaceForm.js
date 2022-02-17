@@ -1,5 +1,6 @@
 import api from "../globalapi";
 import { useState } from "react";
+import { v4 as uuid } from "uuid";
 
 export default function AddSpaceForm() {
   const [name, setName] = useState("");
@@ -9,10 +10,19 @@ export default function AddSpaceForm() {
   const [city, setCity] = useState("");
   const [description, setDescription] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const unique_id = uuid();
 
   const submitHandler = (event) => {
     event.preventDefault();
-    const newData = { name, image, price, contact, city, description };
+    const newData = {
+      unique_id,
+      name,
+      image,
+      price,
+      contact,
+      city,
+      description,
+    };
 
     setIsLoading(true);
 
