@@ -12,7 +12,7 @@ import Card from "@mui/material/Card";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import api from "../globalapi";
-import { Link } from "react-router-dom";
+import { v4 as uuid } from "uuid";
 
 //const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
@@ -71,9 +71,7 @@ export default function CardGridCopy() {
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button size="small" component={Link} to="/display">
-                    View
-                  </Button>
+                  <Button size="small" >View</Button>
                   <Button size="small">Edit</Button>
                 </CardActions>
               </Card>
