@@ -72,8 +72,8 @@ export default function CardGridCopy() {
                   </Typography>
                 </CardContent>
                 <CardActions>
-                <Button size="small" component={Link} to="/display">Vie</Button>
-                  <Button size="small">Edit</Button>
+                <Button size="small" component={Link} to="/display">Ver más detalles</Button>
+                  
                 </CardActions>
               </Card>
             </Grid>
