@@ -3,15 +3,10 @@ def main():
 
     sys.path.insert(0, "")
 
-    from src.domain.info import Info, InfoRepository
+   
     from src.domain.spaces import Space, SpacesRepository
 
     database_path = "data/database.db"
-
-    info_repository = InfoRepository(database_path)
-
-    info_repository.save(Info(app_name="f5-seed-app"))
-
 
     espacio_1 = Space(
         id= "space1",
