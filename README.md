@@ -32,9 +32,10 @@ ir github y clonar el proyecto:
 
 **Encuentra dos directorios:**
 
-* back y frontreact encontra en cada directorio
-  se encuentra README descripción de la instalación de react y python flask.
-
+```html
+back y frontreact en el directorio del proyecto
+se encuentra un README con la descripción de la instalación de react y python flask.
+```
 
 #
 **Pruebas**
