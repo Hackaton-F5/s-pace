@@ -36,7 +36,7 @@ class SpacesRepository:
     def init_tables(self):
         sql = """
             create table if not exists spaces(
-                id varchar,
+                id varchar PRIMARY KEY,
                 name varchar,
                 image varchar,
                 price varchar,
