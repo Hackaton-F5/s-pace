@@ -1,5 +1,6 @@
 import api from "../globalapi";
 import { useState } from "react";
+import styles from "./A";
 
 export default function AddSpaceForm() {
   const [name, setName] = useState("");
@@ -33,7 +34,7 @@ export default function AddSpaceForm() {
           type="text"
           placeholder="Add s-pace's name"
           value={name}
-          onChange={(e) => setTitle(e.target.value)}
+          onChange={(e) => setName(e.target.value)}
         />
       </div>
 
@@ -88,7 +89,7 @@ export default function AddSpaceForm() {
       </div>
 
       <div>
-        {!isLoading && <button>Add picture!</button>}
+        {!isLoading && <button>Publish your space!</button>}
         {isLoading && <button disabled>Adding...</button>}
       </div>
     </form>
