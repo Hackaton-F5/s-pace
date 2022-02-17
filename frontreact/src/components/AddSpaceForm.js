@@ -1,6 +1,5 @@
 import api from "../globalapi";
 import { useState } from "react";
-import styles from "./AddSpaceForm";
 
 export default function AddSpaceForm() {
   const [name, setName] = useState("");
@@ -27,7 +26,7 @@ export default function AddSpaceForm() {
   };
 
   return (
-    <form className={styles.form} onSubmit={submitHandler}>
+    <form onSubmit={submitHandler}>
       <div>
         <label htmlFor="name">Name</label>
         <input
