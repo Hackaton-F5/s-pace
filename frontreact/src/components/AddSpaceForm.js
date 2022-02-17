@@ -40,7 +40,7 @@ export default function AddSpaceForm() {
     <div className={styles.container}>
       <fieldset>
     <form onSubmit={submitHandler} className={styles.form}>
-        <legend className={styles.title}><u>Agrega un nuevo lugar</u></legend>
+        <legend className={styles.title}><u>Add a new space</u></legend>
       <div className="mb-4">
         <label htmlFor="name">Name &nbsp;</label>
         <input
