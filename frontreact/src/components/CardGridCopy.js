@@ -24,7 +24,7 @@ export default function CardGridCopy() {
   useEffect(() => {
     setIsLoading(false);
     axios.get(api).then((res) => {
-      console.log(res);
+      setCards(res.data);
     });
   }, [setIsLoading]);
 
@@ -57,16 +57,16 @@ export default function CardGridCopy() {
                     // 16:9
                     pt: "56.25%",
                   }}
-                  image="https://source.unsplash.com/random"
+                  image={place.image}
                   alt="random"
                 />
                 <CardContent sx={{ flexGrow: 1 }}>
                   <Typography gutterBottom variant="h5" component="h2">
-                    Heading
+                    heading={place.name}
                   </Typography>
                   <Typography>
-                    This is a media card. You can use this section to describe
-                    the content.
+                    content={place.description}
+                    price={place.price}
                   </Typography>
                 </CardContent>
                 <CardActions>
