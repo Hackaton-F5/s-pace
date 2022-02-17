@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Display() {
   return (
-    <h1>DISPLAY</h1> /
-    (
+    <h1>DISPLAY</h1> 
+    /*(
       <form onSubmit={submitHandler}>
         <div>
           <label htmlFor="name">Name</label>
@@ -67,6 +67,6 @@ export default function Display() {
 
         <div>{!isLoading && <button>rent!</button>}</div>
       </form>
-    )
+    )*/
   );
 }
