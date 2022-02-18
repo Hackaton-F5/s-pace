@@ -65,24 +65,24 @@ export default function AddSpaceForm() {
         <label htmlFor="price">Price &nbsp;</label>
         <input
           type="text"
-          placeholder="Taken by"
+          placeholder="Price"
           value={price}
           onChange={(e) => setPrice(e.target.value)}
         />
       </div>
 
       <div className="mb-4">
-        <label htmlFor="price">Contact &nbsp;</label>
+        <label htmlFor="contact">Contact &nbsp;</label>
         <input
           type="text"
           placeholder="Add your contact mail here"
-          value={price}
+          value={contact}
           onChange={(e) => setContact(e.target.value)}
         />
       </div>
 
       <div className="mb-4">
-        <label htmlFor="price">City &nbsp;</label>
+        <label htmlFor="city">City &nbsp;</label>
         <input
           type="text"
           placeholder="What city this is"
