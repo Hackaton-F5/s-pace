@@ -59,11 +59,14 @@ ___
 * Python flask
 * ReactJs
 * Bootstrap y MUI
+<<<<<<< HEAD
 ---
 **BD**
 ---
 ![BDSqlite3](img/DATABASE.png)
 
+=======
+>>>>>>> b46290ec8927eea303aab6a857dbe6ca7185ed46
 ___
 [Scrum](https://trello.com/b/Ol7dzpzO/marketplace) 
 ___
@@ -102,4 +105,7 @@ ___
  ## Downloads
 #### GitHub (All Releases)
 [![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg?style=flat)]()  
+<<<<<<< HEAD
 
+=======
+>>>>>>> b46290ec8927eea303aab6a857dbe6ca7185ed46
