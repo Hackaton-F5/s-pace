@@ -59,7 +59,6 @@ ___
 * Python flask
 * ReactJs
 * Bootstrap y MUI
-
 ---
 **BD**
 ---
