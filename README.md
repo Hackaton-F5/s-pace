@@ -61,6 +61,13 @@ ___
 * Bootstrap y MUI
 ___
 
+## Wireframe
+---
+![principal](img/principal.jpeg)
+
+![contacto](img/contacto.jpeg)
+
+
 **Desarrolladores:** 
 ```
 * Karen Rosales 
@@ -88,3 +95,4 @@ ___
  ## Downloads
 #### GitHub (All Releases)
 [![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg?style=flat)]()  
+
