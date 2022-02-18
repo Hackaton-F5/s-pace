@@ -37,9 +37,10 @@ back y frontreact en el directorio del proyecto
 se encuentra un README con la descripción de la instalación de react y python flask.
 ```
 Adicionalmente, para despeglar el front hay que instalar las siguientes dependecias:
-[npm install] axios
-[npm install] @mui/material @emotion/react @emotion/styled
-[npm install] react-router-dom
+</br>
+* [npm install] axios
+* [npm install] @mui/material @emotion/react @emotion/styled
+* [npm install] react-router-dom
 
 #
 **Pruebas**
