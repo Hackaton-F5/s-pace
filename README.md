@@ -59,6 +59,11 @@ ___
 * Python flask
 * ReactJs
 * Bootstrap y MUI
+---
+**BD**
+---
+![BDSqlite3](img/DATABASE.png)
+
 ___
 [Scrum](https://trello.com/b/Ol7dzpzO/marketplace) 
 ___
