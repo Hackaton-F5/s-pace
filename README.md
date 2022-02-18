@@ -1,6 +1,6 @@
 # Marketplace **s-pace**
 
-## Sin espacio donde Trabajar !!!!
+## A S-PACE FOR CODERS LIKE YOU
 ___
 <br>
 
@@ -36,6 +36,11 @@ ir github y clonar el proyecto:
 back y frontreact en el directorio del proyecto
 se encuentra un README con la descripción de la instalación de react y python flask.
 ```
+Adicionalmente, para despeglar el front hay que instalar las siguientes dependecias:
+</br>
+* [npm install] axios
+* [npm install] @mui/material @emotion/react @emotion/styled
+* [npm install] react-router-dom
 
 #
 **Pruebas**
@@ -48,11 +53,12 @@ y que el sistema se esté ejecutando con los paramatros establecidos
 para su correcto funcionamiento en el desplugue que se este realizando.
 ___
 
-#### **Tecnologías del proyecto:**
+#### **Tecnologías y herramientas del proyecto:**
 
 * Python
 * Python flask
 * ReactJs
+* Bootstrap y MUI
 ___
 
 **Desarrolladores:** 
