@@ -60,12 +60,14 @@ ___
 * ReactJs
 * Bootstrap y MUI
 ___
-
+[Scrum](https://trello.com/b/Ol7dzpzO/marketplace) 
+___
 ## Wireframe
 ---
 ![principal](img/principal.jpeg)
 
 ![contacto](img/contacto.jpeg)
+
 
 
 **Desarrolladores:** 
