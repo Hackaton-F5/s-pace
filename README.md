@@ -82,7 +82,7 @@ ___
 * Karen Rosales 
 * email: karenvane129@gmail.com
 * Mayu Ruiz
-* email: aruizrull@protonmail.com
+* github: MayuRuru
 * Noelia Valverde
 * email: noelia.valverde@gmail.com
 * Ignacio moreno frison 
